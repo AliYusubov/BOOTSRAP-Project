@@ -1,0 +1,165 @@
+@media only screen and (max-width: 420px) {
+  .height {
+      height: 1500px!important;
+  }
+
+  .color {
+    height: 5300px!important;
+  }
+
+  .secdiv {
+      margin-left: 15%;
+      margin-right: 10%;
+      padding-top: 0px;
+  }
+
+  .dv {
+    height: 1700px!important;
+  }
+
+  .dvv {
+    height: 1100px;
+  }
+
+  .maps {
+    display: none;
+  }
+
+  .imgtop {
+      padding: 75px!important;
+  }
+
+  .imgtop img {
+      width: 200px!important;
+      height: 200px!important;
+  }
+
+  .fries {
+   margin-bottom: 240px;
+  }
+
+  .dd {
+    display: none;
+  }
+
+  .brg {
+      margin-left: 0px!important;
+      width: 0px;
+      height: 0px;
+      margin-left: 0px;
+      margin-bottom: 0px;
+  }
+
+  .vect {
+      margin-top: 0px;
+      margin-bottom: 150px;
+      margin-right: 100px;
+  }
+
+  .tx {
+      margin-left: auto;
+      margin-right: auto ;
+  }
+
+  .tz {
+      margin-left: auto;
+      margin-right: auto ;
+  }
+
+  .dv {
+      height: 2200px!important;
+  }
+
+  .map {
+      width: 330px;
+  }
+
+  .order_online {
+      width: 100px;
+  }
+
+  .nav-link {
+      font-size: 11px;
+  }
+
+  .nav-item {
+      padding-right: 10px;
+  }
+
+  .h1 {
+      padding-right: 130px;
+  }
+
+  .secdiv {
+    display: none;
+  }
+
+  .text {
+    width: 350px;
+    height: 500px;
+    background-color: #D08638;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 11px;
+}
+
+.says {
+  font-size: 33px;
+}
+
+.mike {
+    padding-top: 10px;
+    padding-bottom: 44px;
+}
+
+.client {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 10%;
+    border: 3px solid #674129;
+}
+
+.lorm {
+    color: #674129;
+}
+
+.mik {
+    color: #674129;
+}
+
+.manqa {
+    color: #674129;
+}
+
+.carousel {
+  margin-top: 150px;
+}
+
+.carousel-inner img {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.carousel-inner h1 {
+  display: none;
+}
+.carousel-inner p {
+  display: none;
+}
+
+.cl {
+  margin-top: 100px;
+  margin-right: 75px!important;
+}
+
+.ordr_online {
+  margin-left: 50px ;
+  margin-right: 50px;
+}
+
+}

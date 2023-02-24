@@ -1,0 +1,553 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.main_div_ali {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+}
+
+/*                                                                  TOP HEADER                                                                            */
+
+.topheader {
+    background-image: url(../images/picca.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 290px;
+    background-size: cover;
+}
+
+.navbar-expand-md {
+    color: black;
+}
+
+.navbar-toggler {
+    color: black;
+}
+
+.masthead {
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.h1 {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    /* padding-left: 100px; */
+}
+
+.cl {
+    background-color: #674129 !important;
+    color: white !important;
+    border: 1px solid #674129;
+}
+
+.cl:hover {
+    background-color: #ffbe33 !important;
+    color: black !important;
+    border: 1px solid #ffbe33;
+}
+
+.topheader span a {
+    padding-right: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topheader a i {
+    color: white;
+    padding-right: 7px;
+}
+
+.topheader span a:hover {
+    color: #ffbe33;
+}
+
+.topheader a i:hover {
+    color: grey;
+}
+
+
+.a {
+    padding-left: 80px;
+}
+
+.b {
+    padding-right: 33px;
+}
+
+.order_online {
+    background-color: #6c5547;
+    color: black;
+    width: 140px;
+    text-align: center;
+    border-radius: 45px !important;
+    font-family: 'Dancing Script', cursive;
+}
+
+.order_online:hover {
+    cursor: pointer;
+    background-color: #ffbe33;
+    color: white !important;
+}
+
+.nav {
+    padding-bottom: 200px;
+}
+
+.nav-item {
+    padding-right: 25px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: black !important;
+    cursor: pointer;
+}
+
+.carousel {
+    margin-top: 300px;
+}
+
+.fries {
+    /* width: 400px; */
+    height: 300px;
+}
+
+.font {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* .dk {
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.drk {
+    font-size: 44px;
+    font-family: 'Dancing Script', cursive;
+} */
+
+/*                                                                  SALE DAYS                                                                            */
+
+.radius {
+
+    border: 5px solid #674129;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.height {
+    height: 1200px;
+    background-color: antiquewhite;
+}
+
+.album p {
+    color: #674129;
+}
+
+.DC {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: #674129;
+}
+
+.crd {
+    margin-top: 100px;
+    margin-bottom: 00px;
+    color: white;
+
+}
+
+.pz-img {
+    background-color: #D08638;
+}
+
+.bg-img {
+    background-color: #D08638;
+}
+
+.sale {
+    color: black;
+    margin-right: auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    padding-top: 100px;
+    margin-left: auto;
+    text-align: center;
+
+}
+
+.bdy {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ttl {
+    font-size: 33px;
+    font-family: 'Dancing Script', cursive;
+    color: #674129;
+    
+}
+
+.txt {
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+    color: #674129;
+}
+
+.ordr_online {
+    background-color: #674129;
+    color: white;
+    width: 140px;
+    text-align: center;
+    border-radius: 45px !important;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 30px;
+}
+
+.ordr_online:hover {
+    background-color: #ffbe33;
+    color: black;
+}
+
+/*                                                                  OUR MENU                                                                            */
+
+
+
+.secdiv {
+    padding: 20px;  
+}
+
+.secdiv {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.secdiv span {
+    list-style: none;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.secdiv span.active {
+    background-color: #674129;
+    color: #fff;
+}
+
+.product .itemBox {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.product .itemBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dark {
+    background-color: #c63333;
+}
+
+.color {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 2200px;
+}
+
+.imgtop {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100%;
+    background-color: #D08638;
+    border: 3px solid #674129;
+    padding: 100px;
+}
+
+.imgtop img {
+    width: 200px;
+    height: 150px;
+}
+
+.itemBox:hover p {
+    color: #674129;
+    transition: 5s;
+}
+
+.itemBox:hover img {
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.our {
+    color: #674129;
+}
+
+.list {
+    color: #674129;
+}
+
+.size {
+    font-size: 19px;
+}
+
+/*                                                                  WE ARE VECTOR                                                                            */
+
+.brg {
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-bottom: 150px ;
+}
+
+.dd {
+    background-color: #D08638 !important;
+}
+
+.vect {
+    margin-top: 300px;
+    margin-left: 200px;
+
+}
+
+.read {
+    text-decoration: none;
+    padding: 10px 50px;
+    background-color: #674129;
+    border-radius: 45px;
+    color: white;
+}
+
+.read:hover {
+    background-color: #ffbe33;
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.dv {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 1300px;
+}
+
+.Book {
+    padding-top: 150px !important;
+    padding-bottom: 20px;
+    color: #674129;
+    font-size: 44px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    padding: 15px 25px;
+    border: 2px solid #674129;
+}
+
+.BookNow {
+    padding: 11px 44px;
+    border: none;
+    background-color: #674129;
+    border-radius: 33px;
+    color: white;
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.BookNow:hover {
+    cursor: pointer;
+    background-color: #ffbe33;
+    color: white !important;
+}
+
+.map {
+    border: 3px solid #674129 !important;
+    height: 350px !important;
+}
+
+.dvbc {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 700px;
+}
+
+.says {
+    color: #674129;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.text {
+    width: 700px;
+    height: 300px;
+    background-color: #D08638;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 11px;
+}
+
+.tx {
+    margin-left: auto;
+}
+
+.tz {
+    margin-right: auto;
+}
+
+.mike {
+    padding-top: 10px;
+    padding-bottom: 44px;
+}
+
+.client {
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    border-radius: 10%;
+    border: 3px solid #674129;
+}
+
+.lorm {
+    color: #674129;
+}
+
+.mik {
+    color: #674129;
+}
+
+.manqa {
+    color: #674129;
+}
+
+.lct {
+    font-size: 33px;
+    padding-right: 10px;
+}
+
+.location {
+    font-size: 44px;
+    color: #674129;
+}
+
+.float {
+    float: left !important;
+}
+
+/*                                                              FOOTER                                                                                  */
+
+.dvv {
+    background-color: #D08638;
+    width: 100%;
+    height: 500px;
+}
+
+.Contact {
+    margin-top: 100px;
+    text-align: center;
+    color: #674129;
+}
+
+.Contact a {
+    text-decoration: none;
+    color: #674129;
+    padding-bottom: 100px !important;
+}
+
+.Contact a:hover {
+    color: #ffbe33;
+}
+
+.Contact .font {
+    font-size: 33px;
+}
+
+.Vector {
+    margin-top: 100px;
+    text-align: center;
+    color: #674129;
+}
+
+.Vector a {
+    text-decoration: none;
+    color: #674129;
+}
+
+.Vector .font {
+    font-size: 33px;
+}
+
+.Opening {
+    margin-top: 100px;
+    text-align: center;
+    color: #674129;
+}
+
+.Opening a {
+    text-decoration: none;
+    color: #674129;
+}
+
+.Opening .font {
+    font-size: 33px;
+}
+
+.Footer {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 22px;
+    color: #674129;
+}
+
+.Footer a {
+    text-decoration: none;
+    color: #674129;
+}
+
+.fc {
+    background-color: #674129 !important;
+    padding: 11px;
+    border-radius: 50%;
+    color: white;
+}
+
+.fc:hover {
+    color: #ffbe33;
+}
